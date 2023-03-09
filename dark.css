@@ -1,0 +1,60 @@
+aside,
+header,
+.nav2 {
+    background-color: black;
+}
+
+.last-part {
+    background-color: #0f0f0f;
+}
+
+nav {
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+nav h3 {
+    color: white;
+}
+
+nav:hover {
+    background-color: #3d3d3d;
+}
+
+.title-vedio a h4 {
+    color: white;
+}
+
+.nomchaine h3,
+nomchaine p {
+    color: rgb(135, 170, 170);
+}
+
+.right_side span {
+    color: white;
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+.searchbar {
+
+    background: black;
+    border: 1px solid #262626;
+}
+
+.nav2 button {
+    color: white;
+    background-color: rgb(63, 63, 63);
+}
+.logoyt {
+    width: 143px;
+    background-size: 120px;
+    height: 63px;
+    background-repeat: no-repeat;
+    background-image: url(youtube-logo2.png);
+}

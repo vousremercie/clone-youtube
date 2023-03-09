@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.searchbar {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: white;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    width: 670px;
+    margin-right: 120px
+}
+
+.searchbar:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.searchbar-wrapper {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.searchbar-left {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-icon-wrapper {
+    margin: auto;
+}
+
+.search-icon {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+
+.searchbar-icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.searchbar-center {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.searchbar-input-spacer {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+}
+
+.searchbar-input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+    color: white;
+
+}
+
+.searchbar-right {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row
+}
+
+.searchbar-clear-icon {
+    margin-right: 12px
+}
+
+.voice-search {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 2.8em;
+}
+
+.profil1 {
+    display: flex;
+
+
+}
+
+
+.picture {
+    width: 35px;
+    height: 35px;
+    background-color: aqua;
+    border-radius: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    padding: 0 16px;
+}
+
+.right_side {
+    display: flex;
+}
+
+.logo img {
+    width: 46%;
+    margin-left: 20px;
+
+}
+
+.logo span {
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.logo {
+    display: flex;
+
+    align-items: center;
+    cursor: pointer;
+}
+
+.right_side {
+    display: flex;
+    align-items: center;
+}
+
+.right_side .material-symbols-rounded {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.right_side div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.container {
+    height: calc(100vh - 56px);
+    display: flex;
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    visibility: hidden;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+    display: none;
+    visibility: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #909090;
+    border-radius: 8px;
+    visibility: hidden;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    visibility: visible;
+
+}
+
+aside {
+    width: 240px;
+    height: 100%;
+    overflow: auto;
+    padding: 0px 10px;
+
+
+
+}
+
+
+
+nav span,
+nav h3 {
+    padding: 0 16px;
+
+}
+
+.line hr {
+    border-top: 1px solid #e5e5e5;
+}
+
+.line {
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+}
+
+nav:hover {
+    background-color: #f2f2f2;
+}
+
+nav a,
+nav h3 {
+    margin-left: 14px;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.vedio-info {
+    width: 310px;
+
+    border-radius: 7px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+
+
+}
+
+
+.title-vedio {
+    display: flex;
+    margin-top: 13px;
+
+}
+
+.vedio-info .img img {
+    height: 170px;
+    width: 100%;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.title-vedio a {
+    line-height: 1.6;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.title-vedio a {
+    height: 42px;
+    overflow: hidden;
+}
+
+.nomchaine h3 {
+    cursor: pointer;
+}
+
+.last-part {
+
+    overflow-y: auto;
+    width: calc(100vw - 240px);
+}
+
+.nomchaine {
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    margin-top: 5px;
+    line-height: 1.6;
+    color: #606060;
+}
+
+
+
+
+.container nav button {
+    --primary-color: white;
+    --secondary-color: black;
+    --hover-color: white;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 0.8em 1.2em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: 500;
+    box-shadow: 0 0 0px 1px #3f3f3f;
+    margin-left: 40px;
+}
+
+button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+}
+
+button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+
+button:hover {
+    background-color: var(--hover-color);
+}
+
+button:hover .arrow {
+    background: var(--secondary-color);
+}
+
+button:hover .arrow:before {
+    right: 0;
+}
+
+.vedios {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.nav2 {
+    padding-left: 15px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    overflow: auto;
+    display: flex;
+    -ms-overflow-style: none;
+    z-index: 9999999999999999;
+
+
+}
+
+.nav2::-webkit-scrollbar {
+    display: none;
+}
+
+.aaa {
+    margin-left: 15px
+}
+
+
+
+.nav2 button {
+    background-color: rgb(229, 229, 229);
+    border-radius: 8px;
+    color: rgb(60, 60, 60);
+    font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: 3px 1rem;
+    text-align: center;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    margin-bottom: 14px;
+    margin-left: 14px;
+    border: none;
+
+}
+
+
+
+button:focus {
+    outline: 2px solid rgba(0, 0, 0, 0.1);
+    outline-offset: 2px;
+}
+
+button:focus-visible {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.material-symbols-outlined img[src="unnamed.png"] {
+    width: 20px;
+}
+
+.material-symbols-outlined img[src="unnamed.webp"],
+.material-symbols-outlined img[src="youtube-tv.png"] {
+
+    width: 25px;
+}
+
+.words a {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+.logoyt {
+    width: 143px;
+    background-size: 136px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-image: url(youtube-logo.png);
+}
+
+.vedi {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(297px, 1fr));
+    grid-template-rows: repeat(80, 292px);
+    height: 100%;
+    gap: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.vedi .vedio img[src="bts.jpg"] {
+    width: 100%;
+}
+
+.vedio {
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.vedio:hover {
+    transform: scale(1.1);
+}
+
+.title-vedio img[src="dizzy.jpg"] {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.minuature img {
+    border-radius: 10px;
+}
+
+
+@media all and (max-width: 480px) {
+    aside {
+        width: 50px;
+        padding: 0 10px;
+
+    }
+
+    .vedi {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-template-rows: repeat(80, 140px);
+
+        gap: 3px;
+    }
+
+    .last-part {
+        width: 100%;
+    }
+
+    .title-vedio a {
+        font-size: 5px;
+
+    }
+
+    .title-vedio .aaa {
+        margin-left: 6px;
+    }
+
+    .nomchaine h3,
+    .nomchaine p {
+        font-size: 5px;
+    }
+
+    .title-vedio img[src="dizzy.jpg"] {
+        width: 15px;
+        height: 15px;
+    }
+
+    .nomchaine {
+        margin-left: 20px;
+        margin-top: -1px;
+    }
+
+    .nav2 button {
+        padding: 1px 5px;
+        font-size: 6px;
+        line-height: 1;
+        margin-left: 5px;
+        border-radius: 4px;
+
+    }
+
+    .nav2 {
+        padding-left: 0;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav h3 {
+        display: none;
+    }
+
+    .line hr {
+        display: none;
+    }
+
+    nav .material-symbols-outlined {
+        font-size: 13px;
+    }
+
+    .logo span {
+        font-size: 13px;
+        padding-left: 10px;
+        margin: 0;
+
+    }
+
+    nav span,
+    nav h3 {
+        padding: 0px 0px;
+    }
+
+    .vedi {
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 31px;
+        padding: 0 0px;
+    }
+
+    .logoyt {
+        background-size: 56px;
+        height: 20px;
+
+    }
+
+    .searchbar {
+        font-size: 14px;
+        font-family: arial, sans-serif;
+        color: #202124;
+        display: flex;
+        z-index: 3;
+        height: 18px;
+        background: white;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        border-radius: 24px;
+        width: 670px;
+        margin-right: 12px;
+    }
+
+    .searchbar-icon {
+        display: inline-block;
+        fill: currentColor;
+        height: 24px;
+        line-height: 12px;
+        position: relative;
+        margin-left: -10px;
+        width: 9px;
+    }
+
+    .searchbar-input {
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, .87);
+        word-wrap: break-word;
+        outline: none;
+        display: flex;
+        flex: 100%;
+        margin-top: -37px;
+        height: 34px;
+        font-size: 16px;
+        max-width: 100%;
+        width: 100%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .voice-search {
+        flex: 1 0 auto;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        border: 0;
+        background: transparent;
+        outline: none;
+        padding: 0 8px;
+        width: 1.8em;
+        margin-right: -11px;
+    }
+
+    .picture {
+        width: 20px;
+        height: 20px;
+    }
+
+    button {
+        margin-top: 0px;
+    }
+
+    .container {
+        height: calc(100vh -31px);
+    }
+
+    .right_side .material-symbols-rounded {
+        font-size: 10px;
+        padding-left: 4px;
+    }
+
+    #compyright {
+        display: none;
+    }
+
+    .material-symbols-outlined img[src="unnamed.png"] {
+        width: 12px;
+    }
+
+    .material-symbols-outlined img[src="unnamed.webp"],
+    .material-symbols-outlined img[src="youtube-tv.png"] {
+    width: 14px;}
+}
